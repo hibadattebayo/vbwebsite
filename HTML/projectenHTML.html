@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="text/javascript" src="../Javascript/homePaginaJS.js"></script>
+		<script type="text/javascript" src="../Javascript/projectenJS.js"></script>
+		
+		<link rel="stylesheet" type="text/css" href="../CSS/homePaginaCSS.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/projectenCSS.css">
+		<title></title>
+	</head>
+	<body>
+		<header class="welkom">
+			<div class="container1">
+				<img src="../afbeeldingen/IMG_20170726_203628_922.jpg">
+				<div class="content1">
+					<a href="HomePaginaHTML.html"><img src="../afbeeldingen/logoOpMaat.svg"></a>
+					<nav class="menubar">
+						<ul id="menu">
+							<li><a href="HomePaginaHTML.html">Home</a></li>
+							<li><a href="overMezelfHTML.html">Over mezelf</a></li>
+							<li><a href="projectenHTML.html">Projecten</a></li>
+							<li><a href="contactHTML.html">Contact</a></li>
+						</ul>
+
+					</nav>
+					<div class="tekstPro">
+						<h1>Projecten</h1>
+					</div>
+					<div class="timelinePro">
+						<div class="projecten">
+							<button type="button" class="button lo" onclick="openCity(event, 'log')">Logo</button>
+							<button type="button" class="button ha" onclick="openCity(event, 'hag')">Haga ziekenhuis</button>
+							<button type="button" class="button mu" onclick="openCity(event, 'mus')">Museon</button>
+							<button type="button" class="button im" onclick="openCity(event, 'Imp')">Imperium</button>
+						</div>
+						<hr>
+					</div>
+					<div class="slidersPro">
+
+						<div id="log" class="tabPro">
+							<h2>Logo</h2>
+							<br />
+							<p>Logo was mijn eerste ontwerp. Ik begon met schetsen en daarna heb ik het uitgewerkt in illustrator. Daarnaast heb ik ook wel mijn logo toegepast in een vorm van posters en banners. </p>
+							<div class="afbeeldingProLo">
+								<img src="../afbeeldingen/viscomLogo.png">
+								<p>Mijn eerste logo</p>
+							</div>
+							<div class="afbeeldingProLo">
+								<img src="../afbeeldingen/posterLogo.png">
+								<p>Een poster</p>
+							</div>
+							<div class="afbeeldingProLo">
+								<img src="../afbeeldingen/bannerPro.png">
+								<p>Een banner</p>
+							</div>
+
+							<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  							<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+						</div>
+
+						<div id="hag" class="tabPro">
+							<h2>Haga ziekenhuis</h2>
+							<br />
+							<p>Voor dit project heb ik de opdracht gekregen om de website Haga Ziekenhuis te herontwerpen. Hierbij is er een verband van samenwerking. We hebben verschillende technieken gebruikt, zoals user needs, user case, sitemap, navigatiemodel en nog meer.</p>
+							<div class="afbeeldingProHaga haga1">
+								<img class="user" src="../afbeeldingen/userneedsHaga.png">
+								<p>User need</p>
+							</div>
+							<div class="afbeeldingProHaga tak">
+								<img class="taak" src="../afbeeldingen/taakanalyseHaga.png">
+								<p>Taakanalyse</p>
+							</div>
+							<div class="afbeeldingProHaga use">
+								<img class="userCase" src="../afbeeldingen/usercasediagramHaga.png">
+								<p>User case diagram</p>
+							</div>
+							<div class="afbeeldingProHaga haga4">
+								<img class="sys" src="../afbeeldingen/systeemeisenHaga.png">
+								<p>Systeemeisen</p>
+							</div>
+							<div class="afbeeldingProHaga haga5">
+								<img class="SiteMap" src="../afbeeldingen/sitemapHaga.png">
+								<p>Sitemap</p>
+							</div>
+							<div class="afbeeldingProHaga haga6">
+								<img class="navvi" src="../afbeeldingen/navigatiemodelHaga.png">
+								<p>Navigatiemodel</p>
+							</div>
+							<div class="afbeeldingProHaga haga7">
+								<img class="uc" src="../afbeeldingen/usercaseHaga.png">
+								<p>User case</p>
+							</div>
+							<div class="afbeeldingProHaga haga8">
+								<img class="flo" src="../afbeeldingen/flowchartHaga.png">
+								<p>Flowchart</p>
+							</div>
+
+							<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+  							<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+						</div>
+
+						<div id="mus" class="tabPro">
+							<h2>Museon</h2>
+							<br />
+							<p>Bij dit project is er spraak van groepsverband. Het doel van het project is dat wij als groep een concept moesten bedenken om mensen die naar de Museon geweest zijn, te sturen naar het bekijken van de website. Hierbij hebben wij onderzoek gedaan naar de doelgroep. We hebben gebruikt gemaakt van de technieken storyboard, moodboard en de conceptkeuze. </p>
+							<div class="afbeeldingProMu mus1">
+								<img class="per" src="../afbeeldingen/personaMuseon.png">
+								<p>Uit het onderzoek hebben wij een persona gemaakt.</p>
+							</div>
+							<div class="afbeeldingProMu mus2">
+								<img class="con" src="../afbeeldingen/conceptkezeMuseon.png">
+								<p>Conceptkeuze</p>
+							</div>
+							<div class="afbeeldingProMu mus3">
+								<img class="mood" src="../afbeeldingen/moodboard.png">
+								<p>Moodboard</p>
+							</div>
+							<div class="afbeeldingProMu mus4">
+								<img class="stor1" src="../afbeeldingen/storyboard-een-Museon.png">
+								<p>Storyboard part I</p>
+							</div>
+							<div class="afbeeldingProMu mus5">
+								<img class="stor2" src="../afbeeldingen/storyboard-tweeMuseon.png">
+								<p>Storyboard part II</p>
+							</div>
+							<a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+  							<a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+						</div>
+
+						<div id="Imp" class="tabPro">
+							<h2>Imperium</h2>
+							<br />
+							<p>Het doel van dit project is om de website de Theater Imperium te herontwerpen. Dit is een individueel opdracht. Je wordt hier vrijwel losgelaten. Het betekent dat ik alles zelf mag bepalen welke technieken ik wil gebruiken. </p>
+							<div class="afbeeldingProIm">
+								<img src="../afbeeldingen/sitemapIM.png">
+								<p>Sitemap</p>
+							</div>
+							<div class="afbeeldingProIm">
+								<img src="../afbeeldingen/flowchartIM.png">
+								<p>Flowchart</p>
+							</div>
+							<div class="afbeeldingProIm imp1">
+								<img class="sy" src="../afbeeldingen/systeemeisenIM.png">
+								<p>Systeemeisen</p>
+							</div>
+							<div class="afbeeldingProIm">
+								<img src="../afbeeldingen/prototypeIM.png">
+								<p>Prototype</p>
+							</div>
+							<div class="afbeeldingProIm">
+								<img src="../afbeeldingen/VBwebsiteIM.png">
+								<p>Website</p>
+							</div>
+
+							<a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+  							<a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<footer>
+			<div class="footer">
+				<div class="info"> 
+					<h3>Contact</h3>
+					<p>14092999@student.hhs.nl</p>
+					<p>06 34068849</p>
+				</div>
+				<div class="medias">
+					<a href="https://nl.linkedin.com/in/ploy-luealai-662553150"><img src="../../../../../Iconen/linked-in-square-button.svg"></a>
+					<a href="https://www.facebook.com/profile.php?id=100010506394285"><img src="../../../../../Iconen/facebook.svg"></a>
+					<a href="https://www.instagram.com/?hl=nl"><img src="../../../../../Iconen/instagram.svg"></a>
+				</div>
+			</div>
+		</footer>
+		<script type="text/javascript" src="../Javascript/projectSlidersJS.js"></script> 
+	</body>
+
+</html>
